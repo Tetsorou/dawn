@@ -1,18 +1,6 @@
 const CONFIG = new Config({
-  crypto: {
-    coin: 'ETH',
-    currency: 'USD',
-    refreshIn: 10
-  },
+
   overrideStorage: true, // override localStorage with fixed userconfig values
-  temperature: {
-    location: 'Matão, São Paulo',
-    scale: 'C'
-  },
-  clock: {
-    format: 'h:i p',
-    iconColor: '#ff7b95'
-  },
   search: {
     engines: {
       g: ['https://google.com/search?q=', 'Google'],
